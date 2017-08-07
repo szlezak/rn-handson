@@ -10,14 +10,14 @@ export const RecipeStack = StackNavigator({
   RecipeList: {
     screen: RecipeListScreen,
     navigationOptions: {
-      title: 'RecipeList',
+      title: 'Recipe List',
     },
   },
   RecipeDetail: {
     screen: RecipeDetailScreen,
-    // navigationOptions: ({ navigation }) => ({
-    //   title: `${navigation.state.params.name.first.toUpperCase()} ${navigation.state.params.name.last.toUpperCase()}`,
-    // }),
+    navigationOptions: ({ navigation }) => ({
+      title: `${navigation.state.params.title.toUpperCase()}`,
+    }),
   },
 });
 
@@ -25,14 +25,14 @@ export const CookbookTab = TabNavigator({
   RecipeList: {
     screen: RecipeStack,
     navigationOptions: {
-      tabBarLabel: 'RecipeList',
+      tabBarLabel: 'Recipe List',
       tabBarIcon: ({ tintColor  }) => <Icon name="list" size={35} color={tintColor} />,
     },
   },
   NewRecipe: {
     screen: NewRecipeScreen,
     navigationOptions: {
-      tabBarLabel: 'NewRecipe',
+      tabBarLabel: 'New Recipe',
       tabBarIcon: ({ tintColor }) => <Icon name="note-add" size={35} color={tintColor} />
     },
   },

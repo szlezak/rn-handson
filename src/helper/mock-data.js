@@ -4,7 +4,7 @@ export const recipeListData = [
     title: "Brownies",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Chocolatebrownie.JPG/500px-Chocolatebrownie.JPG",
     preparationTime: 60,
-    servingCount: null,
+    servingCount: 4,
     directions: "*) Čokoládu s máslem rozpustíme nad vodní lázní *) Vejce vyšleháme do světlé pěny, poté vešleháme cukr, když je směs hustá a lesklá, vmícháme rozpuštěnou čokoládu a na závěr mouku smíchanou s kypřicím práškem *) Směs vlijeme do pekáčku vyloženého pečicím papírem, kter potřeme máslem *) Pečeme ve vyhřáté troubě při 160 °C asi 30 minut, pokud máme menší formu, a tedy vyšší těsto, pečeme déle _Povrch brownies by měl bt pevn na dotek, mírně leskl a such. Zapíchneme-li do těsta špejli, měly by na ní zůstat vlhké drobečky těsta. Je to takto žádoucí, poněvadž brownies mají zůstat hutné a nesmí bt vysušené._",
     ingredients: [
       {
@@ -48,7 +48,7 @@ export const recipeListData = [
   {
     id: 2,
     title: "Šoulet",
-    image: "http://www.receptyonline.cz/wp-content/uploads/2012/12/080620soulet-net2.jpg",
+    image: "https://www.toprecepty.cz/fotky/recepty/0064/hrachovo-cirokovy-soulet-154238-1920-1080.jpg",
     servingCount: 4,
     directions: "*) Hrách přes noc namočíme a poté uvaříme doměkka *) Kroupy a maso také uvaříme a maso nakrájíme na kostičky *) Na sádle dohněda orestujeme drobně nakrájenou cibuli, česnek prolisujeme *) Vše smícháme dohromady, osolíme a okořeníme promnutou majoránkou (2-3 lžíce) *) Vložíme do trouby, rozehřáté na 200°C a půl hodiny zapékáme",
     preparationTime: 90,
@@ -92,7 +92,7 @@ export const recipeListData = [
   {
     id: 3,
     title: "Tzatziki",
-    image: "http://toriavey.com/images/2011/08/Tzatziki.jpg",
+    image: "https://s3-us-west-2.amazonaws.com/beachbody-blog/uploads/2017/04/Tzatziki-700x350_zqqnc9.jpg",
     preparationTime: 15,
     servingCount: 4,
     directions: "*) Okurku omyjeme a nastrouháme nahrubo, dáme do cedníku, osolíme a necháme vypotit, poté z ní důkladně vymačkáme vodu *) Vymačkanou okurku smícháme s jogurtem a olivovým olejem *) Poté ochutíme prolisovaným česnekem, solí, pepřem, citronovou šťávou a čerstvým koprem _Tzatziki podáváme vychlazené._",
