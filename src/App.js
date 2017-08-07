@@ -1,20 +1,12 @@
 import React, { Component } from 'react';
-import {
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-import { TabNavigator  } from 'react-navigation';
+import { CookbookTab } from './navigation/router';
 
-import RecipeStackNavigation from './components/StackNavigation';
-import NewRecipeScreen from './components/NewRecipeScreen';
+import { recipeListData } from './helper/mock-data';
 
-const App = TabNavigator({
-  RecipeList: () => { screen: RecipeStackNavigation },
-  NewRecipe: { screen: NewRecipeScreen },
-}, {
-  initialRouteName: 'RecipeList',
-  swipeEnabled: true,
-});
+class App extends Component {
+  render() {
+    return <CookbookTab />;
+  }
+}
 
 export default App;

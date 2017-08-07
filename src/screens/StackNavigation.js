@@ -9,11 +9,12 @@ import { StackNavigator } from 'react-navigation';
 
 import RecipeListScreen from './RecipeListScreen';
 
+const RecipeScreen = ({ navigation, screenProps }) => (
+  <RecipeListScreen props={navigation, screenProps } />
+);
+
 const RecipeStackNavigation = StackNavigator({
-  RecipeList: { screen: RecipeListScreen },
-}, {
-  initialRouteName: 'RecipeList',
-  swipeEnabled: true,
+  RecipeList: { screen: RecipeScreen },
 });
 
 export default RecipeStackNavigation;
